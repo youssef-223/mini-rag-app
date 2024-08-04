@@ -19,3 +19,16 @@ $ conda activate mini-rag
 ```bash
 $ export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
 ```
+
+## Installation
+
+### Install the required packages
+```bash
+$ pip install -r requirements.txt
+```
+
+### Setup the envornment variables 
+```bash
+$ cp .env.example .env
+```
+Set your environment variables in the `.env` file. Like the `OPENAI_API_KEY` value.
